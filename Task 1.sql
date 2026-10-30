@@ -23,11 +23,7 @@ INSERT INTO Departments (DepartmentID, DepartmentName, Location) VALUES
 (4, 'Marketing', 'Chennai'),
 (5, 'Legal', 'Hyderabad');
 
-INSERT INTO Employees1 (EmployeeID, EmployeeName, DepartmentID,Salary, JoiningDate, ManagerID) VALUES
-(101, 'Arjun', 1, 90000, '2021-01-15', NULL),
-(102, 'Priya', 2, 85000, '2020-03-10', NULL),
-(103, 'Rahul', 3, 80000, '2019-07-20', NULL),
-(104, 'Sneha', 4, 75000, '2022-02-01', NULL);
+
 INSERT INTO Employees1 (EmployeeID, EmployeeName, DepartmentID,Salary, JoiningDate, ManagerID)VALUES
 (105, 'Kiran', 1, 70000, '2022-05-12', 101),
 (106, 'Divya', 1, 70000, '2023-01-08', 101),
